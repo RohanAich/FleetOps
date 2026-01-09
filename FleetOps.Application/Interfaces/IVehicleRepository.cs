@@ -1,7 +1,8 @@
-﻿namespace FleetOps.Application.Interfaces;
-
+﻿
 using FleetOps.Domain.Entities;
 using FleetOps.Domain.ValueObjects;
+
+namespace FleetOps.Application.Interfaces;
 
 public interface IVehicleRepository
 {

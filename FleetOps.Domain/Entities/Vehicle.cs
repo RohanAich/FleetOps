@@ -29,7 +29,7 @@ public class Vehicle
         if (Status != VehicleStatus.Available)
             throw new InvalidOperationException("Vehicle is not available for assignment");
 
-        Status = VehicleStatus.Available;
+        Status = VehicleStatus.Assigned;
     }
 
     public void DesignateOutOfService() 

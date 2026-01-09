@@ -7,7 +7,7 @@ namespace FleetOps.Domain.Tests.EntitiesTests;
 public class VehicleTests
 {
     [Fact]
-    public void Create_WithValidData_ShouldCreateVehicle() 
+    public void Create_WithValidData_ShouldCreateVehicle()
     {
         var capacity = new Capacity(1000);
         String vehicleName = "Test Vehicle";

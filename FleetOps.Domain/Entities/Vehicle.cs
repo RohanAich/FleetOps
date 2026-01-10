@@ -14,7 +14,10 @@ public class Vehicle
         Id = id;
         Registration = registration;
         Capacity = capacity;
+        Status = VehicleStatus.Available;
     }
+
+    private Vehicle() { }
 
     public static Vehicle Create(string registration, Capacity capacity)
     {
